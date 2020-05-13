@@ -11,6 +11,8 @@ dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Workspace/GitHub/dotfiles
 dotfiles_files:
   - .zshrc
+  - .rc
+  - .bashrc
   - .gitignore
   - .gitconfig
   - .macos
@@ -21,6 +23,9 @@ homebrew_installed_packages:
   - ssh-copy-id
   - openssl
   - wget
+  - pyenv
+  - pipenv
+  - pyenv-virtualenv
 
 homebrew_taps:
   - homebrew/core
