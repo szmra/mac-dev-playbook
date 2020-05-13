@@ -10,9 +10,11 @@ dotfiles_repo: https://github.com/szmra/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Workspace/GitHub/dotfiles
 dotfiles_files:
+  - .aliases
+  - .exports
   - .zshrc
-  - .rc
   - .bashrc
+  - .screenrc
   - .gitignore
   - .gitconfig
   - .macos
@@ -26,6 +28,7 @@ homebrew_installed_packages:
   - pyenv
   - pipenv
   - pyenv-virtualenv
+  - screen
 
 homebrew_taps:
   - homebrew/core
