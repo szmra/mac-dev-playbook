@@ -51,9 +51,17 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - transmit
+  - visual-studio-code
+  - virtualbox
+  - virtualbox-extension-pack
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 497799835, name: "Xcode" }
+  - { id: 425424353, name: "The Unarchiver" }
+  - { id: 1176074088, name: "Termius" }
+  - { id: 552383089, name: "Dashlane" }
+  
 mas_email: ""
 mas_password: ""
 
