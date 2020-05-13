@@ -6,18 +6,16 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/szmra/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Workspace/GitHub/dotfiles
 dotfiles_files:
   - .zshrc
   - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
+  - .gitconfig
+  - .macos
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
   - doxygen
@@ -50,25 +48,16 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
-  - docker
-  - dropbox
   - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - sequel-pro
-  - slack
-  - sublime-text
   - transmit
-  - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
 mas_email: ""
 mas_password: ""
 
-osx_script: "~/.osx --no-restart"
+osx_script: "~/.macos"
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
