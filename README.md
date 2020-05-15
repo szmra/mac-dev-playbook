@@ -125,10 +125,10 @@ Finally, there are a few other preferences and settings added on for various app
 
 It's my hope that I can get the rest of these things wrapped up into Ansible playbooks soon, but for now, these steps need to be completed manually (assuming you already have Xcode and Ansible installed, and have run this playbook).
 
-  1. Set JJG-Term as the default Terminal theme (it's installed, but not set as default automatically).
-  2. Install [Sublime Package Manager](http://sublime.wbond.net/installation).
-  3. Install all the apps that aren't yet in this setup (see below).
-  4. Remap Caps Lock to Escape (requires macOS Sierra 10.12.1+).
+  1. iterm2 Minimal Titlebar and bottom Status bar. color scheme manta.itermcolors. Set "Tab bar height (points) for minimal theme" to 22, under "Preference - Advanced". Set "Transparency" to near "Opaque", under "Preference - Profiles - Default - Window"
+  2.  Hyper: copy .hyper.js to ~/
+  3. iterm 2 run `p10k configure` select yes.., Pure, Original, left (or pref), No (or pref), two lines, sparse, no transient, 3 or pref, yes to save
+  4. add image from dotfiles to desktop
   5. Set trackpad tracking rate.
   6. Set mouse tracking rate.
   7. Configure extra Mail and/or Calendar accounts (e.g. Google, Exchange, etc.).
