@@ -129,9 +129,9 @@ It's my hope that I can get the rest of these things wrapped up into Ansible pla
   2.  Hyper: copy .hyper.js to ~/
   3. iterm 2 run `p10k configure` select yes.., Pure, Original, left (or pref), No (or pref), two lines, sparse, no transient, 3 or pref, yes to save
   4. add image from dotfiles to desktop
-  5. Set trackpad tracking rate.
-  6. Set mouse tracking rate.
-  7. Configure extra Mail and/or Calendar accounts (e.g. Google, Exchange, etc.).
+  5. 
+  6. 
+  7. 
 
 ### Applications/packages to be added:
 
