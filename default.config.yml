@@ -43,6 +43,8 @@ homebrew_cask_apps:
   - virtualbox
   - virtualbox-extension-pack
   - google-drive-file-stream
+  - iterm2
+  - hyper
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
