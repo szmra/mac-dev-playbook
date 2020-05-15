@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - pipenv
   - pyenv-virtualenv
   - screen
+  - romkatv/powerlevel10k/powerlevel10k
 
 homebrew_taps:
   - homebrew/core
