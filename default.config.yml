@@ -10,10 +10,7 @@ dotfiles_repo: https://github.com/szmra/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Workspace/GitHub/dotfiles
 dotfiles_files:
-  - .aliases
-  - .exports
   - .zshrc
-  - .bashrc
   - .screenrc
   - .gitignore
   - .gitconfig
